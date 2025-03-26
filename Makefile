@@ -20,4 +20,11 @@ killweb:
 lint:
 	pylint --disable=R,C main.py
 
-all: install lint
+all: install lint # test format killweb
+
+
+# python -m venv .venv
+# source .venv/bin/activate
+
+
+
